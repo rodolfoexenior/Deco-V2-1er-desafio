@@ -27,16 +27,70 @@ header {
   }
   
   .seccRecepcion{
-    background-color: #f1f1f1;
+    //background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
   }
   
   .seccResultados{
-    background-color: dodgerblue;
+    background-color: rgb(145, 151, 156);
     padding: 10px;
     flex: 50%;
   }
+
+.caja-texto{
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  margin:auto;
+  //margin-top:50px;
+  width:80%;
+  height: 90%;
+  padding:10px;
+  background-color: white;
+  box-shadow:20px 20px 20px rgb(145, 151, 156);
+}  
+
+.caja-botones{
+  border: none;
+  margin:40px auto;
+  width:80%;
+  padding:10px;
+} 
+
+.btn-reset{
+  background: orangered;
+    color: white;
+  padding: 10px;
+  width: 15%;
+}
+
+.btn-encriptar, .btn-desencriptar{
+  border-radius: 10px;
+}
+
+
+.btn-encriptar:hover, .btn-desencriptar:hover, .btn-reset:hover{
+  transition: 1s;
+  background: yellow;
+  color: black;
+}
+
+.btn-encriptar{
+  background: orange;
+  color: white;
+  padding: 10px;
+  width: 30%;
+}
+
+.btn-desencriptar{
+  color: red;
+  width: 30%;
+  margin-left: 5px;
+  padding: 10px;
+  
+}
+
 .tablefooter {
     margin: 0 auto;
     width: 80%;
