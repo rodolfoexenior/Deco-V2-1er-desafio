@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background: slategrey;
+    height: 100%;
+}
+
+header {
+    padding: 15px 40px;
+    background: yellow;
+}
+ main{
+  height: 100%;
+  background-image: url(img/fondo_secciones.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+
+.secciones {
+    display: flex;
+    //flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 30px;
+  }
+  
+  .seccRecepcion{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .seccResultados{
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+.tablefooter {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tablefooter td {
+    //border: 1px solid #000000;
+    text-align: center;
+}
+
+.linkfooter {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background: orange;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+@media (max-width: 800px) {
+    .seccRecepcion, .seccResultados {
+      flex: 100%;
+    }
+  }
